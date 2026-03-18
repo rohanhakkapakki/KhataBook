@@ -1,0 +1,5 @@
+{
+  "name": "KhataBook",
+  "description": "A minimalist mobile-first expense tracking application focused on quick daily logging without budgeting.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-theme-accent: var(--theme-accent);
+}
+
+:root {
+  --theme-accent: #10b981; /* emerald-500 */
+}
+
+:root[data-theme="green"] {
+  --theme-accent: #10b981;
+}
+
+:root[data-theme="blue"] {
+  --theme-accent: #3b82f6;
+}
+
+:root[data-theme="purple"] {
+  --theme-accent: #8b5cf6;
+}
+
+:root[data-theme="orange"] {
+  --theme-accent: #f97316;
+}
+
+body {
+  background-color: #0a0a0a; /* neutral-950 */
+  color: #f5f5f5; /* neutral-100 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
