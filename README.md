@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
@@ -18,3 +19,7 @@ View your app in AI Studio: https://ai.studio/apps/85e90671-1978-4e54-9038-0a8a7
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+=======
+# KhataBook
+A minimalist, zero-budgeting expense logger for mobile. Built for speed and simplicit
+>>>>>>> 4b65bf9a09c21c7aa847da1640c3ecf8bf76371e
